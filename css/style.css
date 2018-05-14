@@ -11,7 +11,7 @@
 .highlight .w {
     color: #d0d0d0
 }
-
+ 
 .highlight .err {
     color: #151515;
     background-color: #ac4142
@@ -244,7 +244,7 @@ header ul:before {
     bottom: -6px;
     background: rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
 }
 
 header ul li {
@@ -286,6 +286,21 @@ header ul a strong {
     display: block;
     color: #fff;
     -webkit-font-smoothing: antialiased
+}
+
+
+header .myPhoto{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    border:5px solid #fff;
+    position: absolute;
+    top: -28px;
+    left: 288px;
+}
+header .myPhoto img{
+    width: 52px;
 }
 
 section {
@@ -470,4 +485,9 @@ screen and (max-width: 580px) {
     header p.view a small:before {
         content: 'at https://github.com/'
     }
+}
+
+
+.images-show-wrapper{
+    
 }
