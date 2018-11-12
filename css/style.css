@@ -11,7 +11,7 @@
 .highlight .w {
     color: #d0d0d0
 }
- 
+
 .highlight .err {
     color: #151515;
     background-color: #ac4142
@@ -288,18 +288,18 @@ header ul a strong {
     -webkit-font-smoothing: antialiased
 }
 
-
-header .myPhoto{
+header .myPhoto {
     width: 50px;
     height: 50px;
     overflow: hidden;
     border-radius: 50%;
-    border:5px solid #fff;
+    border: 5px solid #fff;
     position: absolute;
     top: -28px;
     left: 288px;
 }
-header .myPhoto img{
+
+header .myPhoto img {
     width: 52px;
 }
 
@@ -423,6 +423,10 @@ hr {
     margin: 0 0 20px
 }
 
+.bigImg {
+    width: 100%;
+}
+
 footer {
     width: 640px;
     margin: 0 auto;
@@ -487,7 +491,4 @@ screen and (max-width: 580px) {
     }
 }
 
-
-.images-show-wrapper{
-    
-}
+.images-show-wrapper {}
